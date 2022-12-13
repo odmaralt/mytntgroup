@@ -1,0 +1,19 @@
+#thirdPart {
+  background-color: #1e161d;
+  border-top: 1px solid #423a3a;
+  padding: 40px 0px;
+}
+#contact p {
+  display: block;
+  color: #ffffff;
+  padding-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+}
+#contact a {
+  color: #ffffff;
+  text-decoration: underline;
+
+}
+

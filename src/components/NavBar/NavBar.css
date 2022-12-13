@@ -1,0 +1,109 @@
+.navBar {
+  overflow: hidden;
+  height: 70px;
+  display: flex;
+  vertical-align: middle;
+  position: fixed;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255, 0.1);
+  width: 100vw;
+  z-index: 100;
+}
+#homeHeader {
+  padding-left: 40px;
+}
+
+.navBar p {
+  float: left;
+  color: #000000;
+  text-align: right;
+  padding: 27px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  vertical-align: middle;
+  justify-content: space-between;
+}
+.navBar a {
+  float: left;
+  color: #000000;
+  text-align: right;
+  padding: 27px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  vertical-align: middle;
+  justify-content: space-between;
+}
+#buttonQuote {
+  margin-top: 20px;
+  position: fixed;
+  left: 84vw;
+  color: white;
+  margin-right: 2.5vw;
+  font-size: 14px;
+  z-index: 1;
+
+  text-transform: capitalize;
+  background-color: #4d3e41;
+}
+#buttonQuote:hover {
+  background-color: #685256;
+}
+.navBar p:hover {
+  background-color: rgba(132, 132, 132, 0.5);
+  color: rgb(255, 255, 255);
+}
+.navBar a:hover {
+  background-color: rgba(132, 132, 132, 0.5);
+  color: rgb(255, 255, 255);
+}
+.navBar p.active {
+  text-decoration: underline;
+  text-decoration-thickness: 2.1px;
+  text-underline-offset: 5px;
+  color: rgb(0, 0, 0);
+  padding-left: 20px;
+}
+.navBar p.active:hover {
+  color: rgb(255, 255, 255);
+}
+#modalDiv {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 340px;
+  background-color: white;
+  width: 32%;
+}
+
+#logo {
+  padding: 40px;
+  text-align: end;
+  float: right;
+  right: 0px;
+  align-items: flex-end;
+  justify-content: right;
+  padding-top: 26px;
+}
+@media screen and (max-width: 850px) {
+  #buttonQuote {
+    left: 70vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navBar a {
+    padding: 27px 8px;
+  }
+  #buttonQuote {
+    left: 64vw;
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #buttonQuote {
+    left: 66vw;
+    font-size: 9px;
+  }
+}

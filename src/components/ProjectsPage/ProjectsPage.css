@@ -1,0 +1,35 @@
+#projectPage {
+  width: 60vw;
+  margin: auto;
+  width: 48%;
+}
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 430px;
+  width: 100%;
+}
+#title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 50px 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#slide2 {
+  margin: 140px 0px;
+}
+@media only screen and (max-width: 850px) {
+  .each-slide-effect > div {
+    height: 260px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #projectPage {
+    width: 100%;
+    margin-top: 7vh;
+  }
+  
+}

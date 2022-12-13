@@ -1,0 +1,64 @@
+#firstPage {
+  background-image: url("https://photos.zillowstatic.com/fp/b00589830056bf0f227c8dfe898c3f53-cc_ft_768.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50vw;
+  height: 70vh;
+  background-color: #fdfdfd;
+  margin-left: 4vw;
+  background-position-y: center;
+  background-position: center;
+  margin-bottom: 15vh;
+}
+#landingPage {
+  padding-top: 10vh;
+}
+
+#header {
+  font-size: 36px;
+  color: #ffffff;
+  padding: 50px 0px 0px 0px;
+  font-weight: 400;
+}
+#imgDiv {
+  width: 40vw;
+  background-color: #232323;
+  padding-left: 50px;
+  left: 100%;
+  height: 100%;
+  margin-top: 4vh;
+  padding-right: 80px;
+  position: relative;
+}
+#imgDiv p {
+  font-size: 14px;
+  color: #000000;
+  color: white;
+  padding-bottom: 25px;
+  text-align: start;
+  font-weight: 400;
+}
+#buttonHome {
+  color: #4d3e41;
+  background-color: white;
+}
+a {
+  color: #4d3e41;
+  text-decoration: none;
+}
+#buttonHome:hover {
+  background-color: rgb(216, 216, 216);
+}
+@media only screen and (max-width: 850px) {
+  #imgDiv {
+    left: 90%;
+  }
+  #firstPage {
+    height: 35vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #landingPage {
+    padding-top: 8vh;
+  }
+}
