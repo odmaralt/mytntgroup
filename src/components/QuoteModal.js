@@ -66,6 +66,7 @@ export const QuoteModal = () => {
   return (
     <div>
       <div id="modalDiv">
+        <h3>Get a Quote Now!</h3>
         <Form onSubmit={handleOnSubmit}>
           <Form.Field
             id="modalInputs"
