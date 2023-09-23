@@ -34,23 +34,19 @@
   #header {
     font-size: 22px;
   }
-  #firstPage {
-    background-position: right;
-    margin-left: 7vw;
-  }
   #imgDiv p {
-    font-size: 11px;
+    font-size: 15px;
     padding-bottom: 5px;
   }
 
   #imgDiv {
-    padding: 0px 25px;
+    padding: 0px 40px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   #firstPage {
-    height: 44vh;
+    height: 47vh;
     width: 100vw;
     margin-left: 0px;
   }
@@ -70,19 +66,18 @@
     margin-right: -10px;
   }
   #header {
-    font-size: 12px;
+    font-size: 16px;
     padding-top: 6%;
   }
   #img {
     height: 260px;
   }
-  #imgDiv {
-    left: 0;
-    top: 90%;
-    height: 85%;
-    width: 100vw;
-  }
   #imgDiv p {
-    font-size: 10px;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #imgDiv {
+    height: 80%;
   }
 }

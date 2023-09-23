@@ -24,7 +24,7 @@ const NavBar = () => {
           size="large"
           variant="contained"
         >
-          Get quote now!
+          Get quote!
         </Button>
       </Stack>
     );

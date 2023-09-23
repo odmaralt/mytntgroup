@@ -63,6 +63,7 @@ export const ContactPage = () => {
                 className="type"
                 type={"text"}
                 required={true}
+                id="name"
                 control={Input}
                 placeholder="Name"
               />{" "}

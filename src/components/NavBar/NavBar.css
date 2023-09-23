@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 .navBar {
   overflow: hidden;
   height: 70px;
@@ -5,12 +6,12 @@
   vertical-align: middle;
   position: fixed;
   justify-content: space-between;
-  background-color: rgb(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.108);
   width: 100vw;
   z-index: 100;
 }
 #homeHeader {
-  padding-left: 40px;
+  padding-left: 30px;
 }
 
 .navBar p {
@@ -27,6 +28,8 @@
   float: left;
   color: #000000;
   text-align: right;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   padding: 27px 20px;
   text-decoration: none;
   font-size: 16px;
@@ -36,17 +39,16 @@
 #buttonQuote {
   margin-top: 20px;
   position: fixed;
-  left: 84vw;
+  left: 88vw;
   color: white;
-  margin-right: 2.5vw;
   font-size: 14px;
   z-index: 1;
-
+  font-family: "Poppins";
   text-transform: capitalize;
-  background-color: #4d3e41;
+  background-color: #131835;
 }
 #buttonQuote:hover {
-  background-color: #685256;
+  background-color: #2b3153;
 }
 .navBar p:hover {
   background-color: rgba(132, 132, 132, 0.5);
@@ -76,6 +78,7 @@
   height: 400px;
   background-color: white;
   width: 32%;
+  border-radius: 6px;
 }
 
 #logo {
@@ -89,7 +92,10 @@
 }
 @media screen and (max-width: 850px) {
   #buttonQuote {
-    left: 70vw;
+    left: 80vw;
+  }
+  #homeHeader {
+    padding-left: 20px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -97,13 +103,13 @@
     padding: 27px 8px;
   }
   #buttonQuote {
-    left: 64vw;
+    left: 70vw;
     font-size: 11px;
   }
 }
 @media screen and (max-width: 400px) {
   #buttonQuote {
-    left: 66vw;
+    left: 64vw;
     font-size: 9px;
   }
 }
